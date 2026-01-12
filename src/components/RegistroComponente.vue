@@ -1,23 +1,16 @@
 
 <template>
-    <div class="min-h-screen relative overflow-hidden">
-        <!-- Background de pizarra -->
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/src/assets/chalkboard-bg.jpg')">
-        </div>
-
-
-
+    <div class="min-h-screen flex ">
         <!-- Contenido principal -->
         <div class="relative z-10 min-h-screen flex">
             <!-- Lado izquierdo - Texto informativo -->
             <div class="w-1/2 flex items-center justify-center p-12">
                 <div class="max-w-md">
-                    <h1 class="text-6xl font-bold text-white mb-6 leading-tight">
-                        CREA TU<br>CUENTA
+                    <h1 class="text-6xl font-bold text-blue mb-6 leading-tight">
+                        Registrate
                     </h1>
-                    <p class="text-white text-lg leading-relaxed opacity-90">
-                        Regístrate para crear tu perfil de usuario y comenzar a gestionar tus datos.
-                        Completa el formulario con información válida y únete a nuestra comunidad.
+                    <p class="text-black text-lg leading-relaxed opacity-90">
+                        Para acceder al formulario, debes registrarte primero
                     </p>
                 </div>
             </div>
