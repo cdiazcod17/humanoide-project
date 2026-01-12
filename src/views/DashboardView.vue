@@ -1,8 +1,6 @@
 <template>
     <div class="bg-white min-h-screen relative overflow-hidden">
-        <!-- Contenido principal -->
         <div class="relative z-10 min-h-screen flex-col ">
-            <!-- Lado izquierdo - Información del usuario -->
             <div class="w-100 flex items-center justify-center p-12">
                 <div class="max-w-ld">
                     <h1 class="text-5xl font-bold text-black mb-4 leading-tight">
@@ -14,7 +12,6 @@
                         Tu humanómetro:
                     </p>
                     
-                        <!-- Información del perfil -->
                         <div class="space-y-4 text-black">
                             <div class="text-2xl font-bold">
                                 {{ usuario?.nombre || 'Nombre' }}
