@@ -41,8 +41,10 @@
                             </router-link>
                         </p>
                     </div>
+                    <div>
+                        <img src="../assets/img1.png" alt="" class="w-30">
+                    </div>
                 </div>
-                <img src="../assets/img1.png" alt="" class="w-30">
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white min-h-screen relative overflow-hidden">
         <!-- Contenido principal -->
-        <div class="relative z-10 min-h-screen flex">
+        <div class="relative z-10 min-h-screen flex-col ">
             <!-- Lado izquierdo - Información del usuario -->
             <div class="w-100 flex items-center justify-center p-12">
                 <div class="max-w-ld">
@@ -46,6 +46,9 @@
                         Cerrar sesión
                     </button>
                 </div>
+            </div>
+            <div>
+                <img src="../assets/img1.png" alt="" class="w-30">
             </div>
         </div>
     </div>
