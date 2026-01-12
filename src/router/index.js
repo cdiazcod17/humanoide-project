@@ -3,13 +3,14 @@ import RegistroView from '@/views/RegistroView.vue'
 import DashboardView from '@/views/DashboardView.vue'
 import LoginView from '@/views/LoginView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import { estaAutenticado } from '@/servicios/autenticacion'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', component: RegistroView},
     { path: '/login', component: LoginView },
-    { path: '/perfil', component: DashboardView },
+    { path: '/perfil', component: DashboardView, meta: { requiresAuth: true } },
 
   ],
 })

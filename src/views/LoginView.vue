@@ -3,7 +3,7 @@
         <div class="w-100 flex items-center justify-center p-12">
             <div class="w-full">
                 <div class="bg-white-800">
-                    <h2 class="text-3xl font-bold text-blue-700 mb-8 text-center">Registrate</h2>
+                    <h2 class="text-3xl font-bold text-blue-700 mb-8 text-center">Iniciar Sesion</h2>
 
                     <form @submit.prevent="iniciarSesion" class="space-y-6">
                         <div>
@@ -14,12 +14,6 @@
                         <div>
                             <input type="password" id="pass" v-model="password"
                                 placeholder="Contraseña (mínimo 6 caracteres)" required
-                                class="w-full px-5 py-4 bg-white rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-black transition-all">
-                        </div>
-
-                        <div>
-                            <input type="password" id="confirmPassword" v-model="confirmPassword"
-                                placeholder="Confirmar contraseña" required
                                 class="w-full px-5 py-4 bg-white rounded-lg text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-black transition-all">
                         </div>
 
@@ -35,7 +29,7 @@
 
                         <button type="submit" :disabled="cargando"
                             class="w-full  bg-blue-700 hover:bg-blue-900 disabled:bg-gray-700 text-white font-semibold py-4 px-6 rounded-lg transition-all duration-200 shadow-lg">
-                            {{ cargando ? "Creando usuario..." : "Registrarse" }}
+                            {{ cargando ? "Ingresando..." : "Iniciar sesion" }}
                         </button>
                     </form>
 

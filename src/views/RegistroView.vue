@@ -9,7 +9,3 @@
     import RegistroComponente from '@/components/RegistroComponente.vue';
 
 </script>
-
-<style lang="scss" scoped>
-
-</style>
